@@ -1,6 +1,7 @@
-#include <stdio.h>
 #include <unistd.h>
-/** main - prints "and that peice of art is useful" - dora korpar, 2015-10-19",
+
+/*
+* main - prints "and that peice of art is useful" - dora korpar, 2015-10-19",
 * followed by a newline, to standard error.
 * Return: Always 1
 */
