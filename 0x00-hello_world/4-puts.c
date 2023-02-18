@@ -1,5 +1,4 @@
-#!/bin/bash
-/
+/*
 *main - Entry point
 *Return: Always 0 (success)
 */
