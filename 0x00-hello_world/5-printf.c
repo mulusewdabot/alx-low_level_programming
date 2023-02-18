@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
-* main - prints "with proper grammar, but the outcome is a piece of art,"
-* Return: Always 0 (success)
+* main - prints "with proper grammar, but the outcome is
+*a piece of art," followed newline
+* Return: Always 0. (success)
+*
 */
 int main(void)
 {
-printf("\"Programming is like building a multilingual puzzle");
+printf("with proper Programmar,butthe outcome is a piece of art,\n");
 return (0);
 }
 	
