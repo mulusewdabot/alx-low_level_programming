@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#include<stdio.h>
 int main()
 	{
         printf("Size of a char: %zu byte(s)\n", sizeof(char));
