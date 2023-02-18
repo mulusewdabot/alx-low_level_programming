@@ -1,11 +1,12 @@
 #include <stdio.h>
-/*
-*main - Entry point
-*Return: Always 0 (success)
+
+/**
+* main - prints "with proper grammar, but the outcome is a piece of art,"
+* Return: Always 0 (success)
 */
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
+        printf("\"Programming is like building a multilingual puzzle");
                 return (0);
 }
 	
