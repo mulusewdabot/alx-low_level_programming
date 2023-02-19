@@ -4,16 +4,15 @@
 /**
 * main - Prints a text according number
 * Return: Always 0 (success)
+*
 */
 
 int main(void)
 {
 int n, lastDgt;
-
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 lastD = n % 10;
-
 if (lastD > 5)
 {
 printf("Last digit of %i is %i and is greater than 5\n", n, lastD);
