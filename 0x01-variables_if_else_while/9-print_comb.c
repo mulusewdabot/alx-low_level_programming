@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
  * main - Prints all single digit numbers of base 10
  * Return: Always 0 (success)
@@ -9,28 +6,17 @@
 
 int main(void)
 {
-        int a, b, c;
+int n;
 
-        for (a = '0'; a < '9'; a++)
-        {
-        for (b = a + 1; b <= '9'; b++)
-        {
-        for (c = b + 1; c <= '9'; c++)
-        {
-        if ((a != b) != c)
-        {
-        putchar(a);
-        putchar(b);
-        putchar(c);
-        if (a == '7' && b == '8')
-        continue;
-        putchar(',');
-        putchar(' ');
-        }
-        }
-        }
-        }
-        putchar('\n');
-        return (0);
+for (n = '0'; n <= '9'; n++)
+{
+putchar(n);
+if (n != '9')
+{
+putchar(',');
+putchar(' ');
 }
-
+}
+putchar('\n');
+return (0);
+}
